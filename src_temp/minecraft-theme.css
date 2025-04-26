@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('./assets/fonts/Minecraftia-Regular.ttf') format('truetype');
+}
+
+.minecraft-theme {
+  font-family: 'Minecraftia', monospace;
+  background: rgba(54, 54, 54, 0.8);
+  color: #ffffff;
+  padding: 30px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: url('https://minecraft.wiki/images/Plains.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #D3D3D3;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #4A4A4A;
+  border: 2px solid #000000;
+  color: #00CED1;
+  font-family: 'Minecraftia', monospace;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #00CED1;
+  color: #ffffff;
+}
+
+.btn-danger {
+  background-color: #4A4A4A;
+  border: 2px solid #000000;
+  color: #FF5555;
+  font-family: 'Minecraftia', monospace;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-danger:hover {
+  background-color: #FF5555;
+  color: #ffffff;
+}
+
+.btn-warning, .btn-outline-warning {
+  background-color: #4A4A4A;
+  border: 2px solid #000000;
+  color: #FFFF99;
+  font-family: 'Minecraftia', monospace;
+  font-size: 1.2rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-warning:hover, .btn-outline-warning:hover {
+  background-color: #FFFF99;
+  color: #000000;
+}
+
+.table {
+  background: url('https://minecraft.wiki/images/Inventory_Background.png') repeat;
+  border: 2px solid #000000;
+  font-family: 'Minecraftia', monospace;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.table th {
+  background-color: #4A4A4A;
+  color: #D3D3D3;
+  border: 2px solid #000000;
+  padding: 12px;
+}
+
+.table td {
+  vertical-align: middle;
+  border: 2px solid #000000;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.table-success {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+.table-info {
+  background-color: rgba(0, 206, 209, 0.2);
+}
+
+.table-primary {
+  background-color: rgba(70, 130, 180, 0.2);
+}
+
+.table-danger {
+  background-color: rgba(255, 85, 85, 0.2);
+}
+
+.form-control, .form-select {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  font-family: 'Minecraftia', monospace;
+  font-size: 1.1rem;
+  color: #333333;
+  border-radius: 8px;
+  padding: 8px;
+  background: url('https://minecraft.wiki/images/Inventory_Slot.png') repeat;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #D3D3D3;
+  box-shadow: 0 0 5px #D3D3D3;
+}
+
+.suggestions-list {
+  position: absolute;
+  background: rgba(54, 54, 54, 0.9);
+  border: 2px solid #000000;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: calc(100% - 16px);
+  z-index: 1000;
+  font-family: 'Minecraftia', monospace;
+  color: #D3D3D3;
+  overflow-x: hidden;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.suggestion-item:hover {
+  background-color: #D3D3D3;
+  color: #000000;
+}
+
+.suggestion-item:focus, .suggestion-item:active {
+  background-color: #B0B0B0;
+  color: #000000;
+}
+
+.modal-content {
+  background: rgba(54, 54, 54, 0.8);
+  border: 2px solid #000000;
+  font-family: 'Minecraftia', monospace;
+  color: #ffffff;
+}
+
+.modal-header, .modal-footer {
+  background-color: #4A4A4A;
+  border-color: #000000;
+  color: #D3D3D3;
+}
+
+.card {
+  background: rgba(54, 54, 54, 0.8);
+  border: 2px solid #000000;
+  color: #ffffff;
+  font-family: 'Minecraftia', monospace;
+  border-radius: 8px;
+}
+
+.card-title {
+  color: #D3D3D3;
+}
+
+.card-text {
+  color: #ffffff;
+}
+
+.alert {
+  font-family: 'Minecraftia', monospace;
+  font-size: 1.2rem;
+  background-color: rgba(54, 54, 54, 0.8);
+  border: 2px solid #000000;
+  color: #D3D3D3;
+  border-radius: 8px;
+}
+
+.item-image {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 2px solid #D3D3D3;
+  background: url('https://minecraft.wiki/images/Inventory_Slot.png') repeat;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary, .btn-danger, .btn-warning, .btn-outline-warning {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .table, .form-control, .form-select, .alert, .card {
+    font-size: 1rem;
+  }
+
+  .item-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .suggestions-list {
+    width: calc(100% - 16px);
+  }
+}
