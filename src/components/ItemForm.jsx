@@ -123,7 +123,7 @@ const ItemForm = ({ formData, setFormData, handleSubmit, alert, apiItems }) => {
           >
             <option value="crafted">Craftado</option>
             <option value="collected">Coletado</option>
-            <option value="not-obtained">Não Obtido</option>
+            <option value="not-obtained">Item não obtido</option>
           </Form.Select>
         </Form.Group>
         <Button type="submit" variant="primary">

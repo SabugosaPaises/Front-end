@@ -27,7 +27,6 @@ const ItemList = ({ items, handleEdit, handleDelete, toggleFavorite }) => {
           <th>Raridade</th>
           <th>Quantidade</th>
           <th>Status</th>
-          <th>Favorito</th>
           <th>Ações</th>
         </tr>
       </thead>
@@ -55,15 +54,7 @@ const ItemList = ({ items, handleEdit, handleDelete, toggleFavorite }) => {
             <td>
               {item.status === 'crafted' ? 'Craftado' :
                item.status === 'collected' ? 'Coletado' :
-               item.status === 'not-obtained' ? 'Não Obtido' : ''}
-            </td>
-            <td>
-              <Button
-                variant={item.favorite ? 'warning' : 'outline-warning'}
-                onClick={() => toggleFavorite(item.id)}
-              >
-                {item.favorite ? '★' : '☆'}
-              </Button>
+               item.status === 'not-obtained' ? 'Item não obtido' : ''}
             </td>
             <td>
               <Button
