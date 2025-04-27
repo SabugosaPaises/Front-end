@@ -219,152 +219,150 @@ h2 {
   border-radius: 8px;
 }
 
-/* Media Query para telas até 768px (tablets e dispositivos móveis) */
 @media (max-width: 768px) {
   .minecraft-theme {
-    padding: 15px; /* Reduz o padding do contêiner principal */
+    padding: 15px;
   }
 
   h1 {
-    font-size: 1.8rem; /* Reduz o tamanho da fonte do título principal */
+    font-size: 1.8rem;
     margin-bottom: 15px;
   }
 
   h2 {
-    font-size: 1.5rem; /* Reduz o tamanho do subtítulo */
+    font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
   .btn-primary, .btn-danger, .btn-warning, .btn-outline-warning {
-    font-size: 0.9rem; /* Reduz o tamanho da fonte dos botões */
-    padding: 6px 12px; /* Reduz o padding dos botões */
+    font-size: 0.9rem;
+    padding: 6px 12px;
   }
 
   .table {
-    font-size: 0.9rem; /* Reduz o tamanho da fonte da tabela */
-    display: block; /* Permite rolagem horizontal */
-    overflow-x: auto; /* Adiciona rolagem horizontal na tabela */
-    white-space: nowrap; /* Evita quebra de linha nas células */
+    font-size: 0.9rem;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   .table th, .table td {
-    padding: 6px; /* Reduz o padding das células da tabela */
+    padding: 6px;
   }
 
   .form-control, .form-select {
-    font-size: 0.9rem; /* Reduz o tamanho da fonte dos campos de formulário */
-    padding: 6px; /* Reduz o padding dos campos */
+    font-size: 0.9rem;
+    padding: 6px;
   }
 
   .alert {
-    font-size: 1rem; /* Reduz o tamanho da fonte do alerta */
-    padding: 8px; /* Reduz o padding do alerta */
+    font-size: 1rem;
+    padding: 8px;
   }
 
   .card {
-    font-size: 0.9rem; /* Reduz o tamanho da fonte dos cards */
-    margin-bottom: 10px; /* Reduz a margem inferior */
+    font-size: 0.9rem;
+    margin-bottom: 10px;
   }
 
   .item-image {
-    width: 32px; /* Reduz o tamanho da imagem */
+    width: 32px;
     height: 32px;
-    padding: 2px; /* Reduz o padding da imagem */
+    padding: 2px;
   }
 
   .suggestions-list {
-    width: calc(100% - 16px); /* Garante que a lista de sugestões ocupe a largura disponível */
-    max-height: 150px; /* Reduz a altura máxima da lista */
-    font-size: 0.9rem; /* Reduz o tamanho da fonte */
+    width: calc(100% - 16px);
+    max-height: 150px;
+    font-size: 0.9rem;
   }
 
   .suggestion-item {
-    padding: 6px; /* Reduz o padding dos itens da lista */
+    padding: 6px;
   }
 
   .modal-content {
-    font-size: 0.9rem; /* Reduz o tamanho da fonte do modal */
+    font-size: 0.9rem;
   }
 
   .modal-body {
-    padding: 10px; /* Reduz o padding do corpo do modal */
+    padding: 10px;
   }
 
   .modal-footer .btn {
-    font-size: 0.9rem; /* Reduz o tamanho dos botões no modal */
+    font-size: 0.9rem;
     padding: 6px 12px;
   }
 }
 
-/* Media Query para telas até 480px (smartphones menores) */
 @media (max-width: 480px) {
   .minecraft-theme {
-    padding: 10px; /* Reduz ainda mais o padding */
+    padding: 10px;
   }
 
   h1 {
-    font-size: 1.5rem; /* Reduz ainda mais o tamanho do título */
+    font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
   h2 {
-    font-size: 1.3rem; /* Reduz ainda mais o tamanho do subtítulo */
+    font-size: 1.3rem;
     margin-bottom: 8px;
   }
 
   .btn-primary, .btn-danger, .btn-warning, .btn-outline-warning {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte dos botões */
-    padding: 4px 8px; /* Reduz ainda mais o padding */
+    font-size: 0.8rem;
+    padding: 4px 8px;
   }
 
   .table {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte da tabela */
+    font-size: 0.8rem;
   }
 
   .table th, .table td {
-    padding: 4px; /* Reduz ainda mais o padding das células */
+    padding: 4px;
   }
 
   .form-control, .form-select {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte dos campos */
-    padding: 4px; /* Reduz ainda mais o padding */
+    font-size: 0.8rem;
+    padding: 4px;
   }
 
   .alert {
-    font-size: 0.9rem; /* Reduz ainda mais o tamanho do alerta */
-    padding: 6px; /* Reduz ainda mais o padding */
+    font-size: 0.9rem;
+    padding: 6px;
   }
 
   .card {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte dos cards */
-    margin-bottom: 8px; /* Reduz ainda mais a margem */
+    font-size: 0.8rem;
+    margin-bottom: 8px;
   }
 
   .item-image {
-    width: 24px; /* Reduz ainda mais o tamanho da imagem */
+    width: 24px;
     height: 24px;
-    padding: 1px; /* Reduz ainda mais o padding */
+    padding: 1px;
   }
 
   .suggestions-list {
-    max-height: 120px; /* Reduz ainda mais a altura máxima da lista */
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte */
+    max-height: 120px;
+    font-size: 0.8rem;
   }
 
   .suggestion-item {
-    padding: 4px; /* Reduz ainda mais o padding dos itens da lista */
+    padding: 4px;
   }
 
   .modal-content {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte do modal */
+    font-size: 0.8rem;
   }
 
   .modal-body {
-    padding: 8px; /* Reduz ainda mais o padding do corpo do modal */
+    padding: 8px;
   }
 
   .modal-footer .btn {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho dos botões no modal */
+    font-size: 0.8rem;
     padding: 4px 8px;
   }
 }
