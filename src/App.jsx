@@ -4,7 +4,7 @@ import ItemForm from './components/ItemForm';
 import ItemList from './components/ItemList';
 import ItemStats from './components/ItemStats';
 import { saveToLocalStorage, getFromLocalStorage } from './utils/localStorage';
-import itemsData from './data/items.json'; // Importa os dados estáticos
+import itemsData from './data/items.json';
 import './minecraft-theme.css';
 
 const App = () => {
@@ -24,14 +24,13 @@ const App = () => {
   const [apiItems, setApiItems] = useState([]);
 
   useEffect(() => {
-    // Carrega os itens do arquivo estático
     try {
       const filteredItems = itemsData
         .filter(item => ['Block', 'Tool', 'Food'].includes(item.type))
         .map(item => ({
           ...item,
         }));
-      console.log('Itens carregados:', filteredItems); // Log para depuração
+      console.log('Itens carregados:', filteredItems);
       setApiItems(filteredItems);
     } catch (err) {
       console.error('Erro ao carregar itens:', err);
