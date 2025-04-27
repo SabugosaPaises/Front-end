@@ -1,142 +1,366 @@
 [
-    {
-      "id": 1,
-      "name": "Stone",
-      "type": "Block",
-      "image": "https://minecraft.wiki/images/Invicon_Stone.png",
-      "translatedName": "Pedra"
-    },
-    {
-      "id": 2,
-      "name": "Dirt",
-      "type": "Block",
-      "image": "https://minecraft.wiki/images/Invicon_Dirt.png",
-      "translatedName": "Terra"
-    },
-    {
-      "id": 3,
-      "name": "Cobblestone",
-      "type": "Block",
-      "image": "https://minecraft.wiki/images/Invicon_Cobblestone.png",
-      "translatedName": "Pedregulho"
-    },
-    {
-      "id": 4,
-      "name": "Sand",
-      "type": "Block",
-      "image": "https://minecraft.wiki/images/Invicon_Sand.png",
-      "translatedName": "Areia"
-    },
-    {
-      "id": 5,
-      "name": "Oak Planks",
-      "type": "Block",
-      "image": "https://minecraft.wiki/images/Invicon_Oak_Planks.png",
-      "translatedName": "Tábuas de Carvalho"
-    },
-    {
-      "id": 6,
-      "name": "Wooden Pickaxe",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Wooden_Pickaxe.png",
-      "translatedName": "Picareta de Madeira"
-    },
-    {
-      "id": 7,
-      "name": "Stone Pickaxe",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Stone_Pickaxe.png",
-      "translatedName": "Picareta de Pedra"
-    },
-    {
-      "id": 8,
-      "name": "Iron Pickaxe",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Iron_Pickaxe.png",
-      "translatedName": "Picareta de Ferro"
-    },
-    {
-      "id": 9,
-      "name": "Diamond Pickaxe",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Diamond_Pickaxe.png",
-      "translatedName": "Picareta de Diamante"
-    },
-    {
-      "id": 10,
-      "name": "Wooden Shovel",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Wooden_Shovel.png",
-      "translatedName": "Pá de Madeira"
-    },
-    {
-      "id": 11,
-      "name": "Stone Shovel",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Stone_Shovel.png",
-      "translatedName": "Pá de Pedra"
-    },
-    {
-      "id": 12,
-      "name": "Iron Shovel",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Iron_Shovel.png",
-      "translatedName": "Pá de Ferro"
-    },
-    {
-      "id": 13,
-      "name": "Diamond Shovel",
-      "type": "Tool",
-      "image": "https://minecraft.wiki/images/Invicon_Diamond_Shovel.png",
-      "translatedName": "Pá de Diamante"
-    },
-    {
-      "id": 14,
-      "name": "Apple",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Apple.png",
-      "translatedName": "Maçã"
-    },
-    {
-      "id": 15,
-      "name": "Bread",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Bread.png",
-      "translatedName": "Pão"
-    },
-    {
-      "id": 16,
-      "name": "Cooked Porkchop",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Cooked_Porkchop.png",
-      "translatedName": "Costeleta de Porco Assada"
-    },
-    {
-      "id": 17,
-      "name": "Carrot",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Carrot.png",
-      "translatedName": "Cenoura"
-    },
-    {
-      "id": 18,
-      "name": "Potato",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Potato.png",
-      "translatedName": "Batata"
-    },
-    {
-      "id": 19,
-      "name": "Baked Potato",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Baked_Potato.png",
-      "translatedName": "Batata Assada"
-    },
-    {
-      "id": 20,
-      "name": "Golden Apple",
-      "type": "Food",
-      "image": "https://minecraft.wiki/images/Invicon_Golden_Apple.png",
-      "translatedName": "Maçã Dourada"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Stone",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Stone.png",
+    "translatedName": "Pedra"
+  },
+  {
+    "id": 2,
+    "name": "Dirt",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Dirt.png",
+    "translatedName": "Terra"
+  },
+  {
+    "id": 3,
+    "name": "Cobblestone",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Cobblestone.png",
+    "translatedName": "Pedregulho"
+  },
+  {
+    "id": 4,
+    "name": "Sand",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Sand.png",
+    "translatedName": "Areia"
+  },
+  {
+    "id": 5,
+    "name": "Oak Planks",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Oak_Planks.png",
+    "translatedName": "Tábuas de Carvalho"
+  },
+  {
+    "id": 6,
+    "name": "Wooden Pickaxe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Wooden_Pickaxe.png",
+    "translatedName": "Picareta de Madeira"
+  },
+  {
+    "id": 7,
+    "name": "Stone Pickaxe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Stone_Pickaxe.png",
+    "translatedName": "Picareta de Pedra"
+  },
+  {
+    "id": 8,
+    "name": "Iron Pickaxe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Iron_Pickaxe.png",
+    "translatedName": "Picareta de Ferro"
+  },
+  {
+    "id": 9,
+    "name": "Diamond Pickaxe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Diamond_Pickaxe.png",
+    "translatedName": "Picareta de Diamante"
+  },
+  {
+    "id": 10,
+    "name": "Wooden Shovel",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Wooden_Shovel.png",
+    "translatedName": "Pá de Madeira"
+  },
+  {
+    "id": 11,
+    "name": "Stone Shovel",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Stone_Shovel.png",
+    "translatedName": "Pá de Pedra"
+  },
+  {
+    "id": 12,
+    "name": "Iron Shovel",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Iron_Shovel.png",
+    "translatedName": "Pá de Ferro"
+  },
+  {
+    "id": 13,
+    "name": "Diamond Shovel",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Diamond_Shovel.png",
+    "translatedName": "Pá de Diamante"
+  },
+  {
+    "id": 14,
+    "name": "Apple",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Apple.png",
+    "translatedName": "Maçã"
+  },
+  {
+    "id": 15,
+    "name": "Bread",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Bread.png",
+    "translatedName": "Pão"
+  },
+  {
+    "id": 16,
+    "name": "Cooked Porkchop",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Cooked_Porkchop.png",
+    "translatedName": "Costeleta de Porco Assada"
+  },
+  {
+    "id": 17,
+    "name": "Carrot",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Carrot.png",
+    "translatedName": "Cenoura"
+  },
+  {
+    "id": 18,
+    "name": "Potato",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Potato.png",
+    "translatedName": "Batata"
+  },
+  {
+    "id": 19,
+    "name": "Baked Potato",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Baked_Potato.png",
+    "translatedName": "Batata Assada"
+  },
+  {
+    "id": 20,
+    "name": "Golden Apple",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Golden_Apple.png",
+    "translatedName": "Maçã Dourada"
+  },
+  {
+    "id": 21,
+    "name": "Iron Ore",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Iron_Ore.png",
+    "translatedName": "Minério de Ferro"
+  },
+  {
+    "id": 22,
+    "name": "Coal Ore",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Coal_Ore.png",
+    "translatedName": "Minério de Carvão"
+  },
+  {
+    "id": 23,
+    "name": "Diamond Ore",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Diamond_Ore.png",
+    "translatedName": "Minério de Diamante"
+  },
+  {
+    "id": 24,
+    "name": "Obsidian",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Obsidian.png",
+    "translatedName": "Obsidiana"
+  },
+  {
+    "id": 25,
+    "name": "Glass",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Glass.png",
+    "translatedName": "Vidro"
+  },
+  {
+    "id": 26,
+    "name": "Oak Log",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Oak_Log.png",
+    "translatedName": "Tronco de Carvalho"
+  },
+  {
+    "id": 27,
+    "name": "Crafting Table",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Crafting_Table.png",
+    "translatedName": "Mesa de Trabalho"
+  },
+  {
+    "id": 28,
+    "name": "Furnace",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Furnace.png",
+    "translatedName": "Fornalha"
+  },
+  {
+    "id": 29,
+    "name": "Chest",
+    "type": "Block",
+    "image": "https://minecraft.wiki/images/Invicon_Chest.png",
+    "translatedName": "Baú"
+  },
+  {
+    "id": 30,
+    "name": "Wooden Axe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Wooden_Axe.png",
+    "translatedName": "Machado de Madeira"
+  },
+  {
+    "id": 31,
+    "name": "Stone Axe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Stone_Axe.png",
+    "translatedName": "Machado de Pedra"
+  },
+  {
+    "id": 32,
+    "name": "Iron Axe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Iron_Axe.png",
+    "translatedName": "Machado de Ferro"
+  },
+  {
+    "id": 33,
+    "name": "Diamond Axe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Diamond_Axe.png",
+    "translatedName": "Machado de Diamante"
+  },
+  {
+    "id": 34,
+    "name": "Wooden Hoe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Wooden_Hoe.png",
+    "translatedName": "Enxada de Madeira"
+  },
+  {
+    "id": 35,
+    "name": "Stone Hoe",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Stone_Hoe.png",
+    "translatedName": "Enxada de Pedra"
+  },
+  {
+    "id": 36,
+    "name": "Fishing Rod",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Fishing_Rod.png",
+    "translatedName": "Vara de Pescar"
+  },
+  {
+    "id": 37,
+    "name": "Bow",
+    "type": "Tool",
+    "image": "https://minecraft.wiki/images/Invicon_Bow.png",
+    "translatedName": "Arco"
+  },
+  {
+    "id": 38,
+    "name": "Cooked Beef",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Cooked_Beef.png",
+    "translatedName": "Bife Assado"
+  },
+  {
+    "id": 39,
+    "name": "Cooked Chicken",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Cooked_Chicken.png",
+    "translatedName": "Frango Assado"
+  },
+  {
+    "id": 40,
+    "name": "Beetroot",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Beetroot.png",
+    "translatedName": "Beterraba"
+  },
+  {
+    "id": 41,
+    "name": "Cookie",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Cookie.png",
+    "translatedName": "Biscoito"
+  },
+  {
+    "id": 42,
+    "name": "Pumpkin Pie",
+    "type": "Food",
+    "image": "https://minecraft.wiki/images/Invicon_Pumpkin_Pie.png",
+    "translatedName": "Torta de Abóbora"
+  },
+  {
+    "id": 43,
+    "name": "Iron Ingot",
+    "type": "Material",
+    "image": "https://minecraft.wiki/images/Invicon_Iron_Ingot.png",
+    "translatedName": "Lingote de Ferro"
+  },
+  {
+    "id": 44,
+    "name": "Diamond",
+    "type": "Material",
+    "image": "https://minecraft.wiki/images/Invicon_Diamond.png",
+    "translatedName": "Diamante"
+  },
+  {
+    "id": 45,
+    "name": "Redstone",
+    "type": "Material",
+    "image": "https://minecraft.wiki/images/Invicon_Redstone.png",
+    "translatedName": "Redstone"
+  },
+  {
+    "id": 46,
+    "name": "Coal",
+    "type": "Material",
+    "image": "https://minecraft.wiki/images/Invicon_Coal.png",
+    "translatedName": "Carvão"
+  },
+  {
+    "id": 47,
+    "name": "String",
+    "type": "Material",
+    "image": "https://minecraft.wiki/images/Invicon_String.png",
+    "translatedName": "Corda"
+  },
+  {
+    "id": 48,
+    "name": "Torch",
+    "type": "Utility",
+    "image": "https://minecraft.wiki/images/Invicon_Torch.png",
+    "translatedName": "Tocha"
+  },
+  {
+    "id": 49,
+    "name": "Bucket",
+    "type": "Utility",
+    "image": "https://minecraft.wiki/images/Invicon_Bucket.png",
+    "translatedName": "Balde"
+  },
+  {
+    "id": 50,
+    "name": "Oak Sign",
+    "type": "Decoration",
+    "image": "https://minecraft.wiki/images/Invicon_Oak_Sign.png",
+    "translatedName": "Placa de Carvalho"
+  },
+  {
+    "id": 51,
+    "name": "White Banner",
+    "type": "Decoration",
+    "image": "https://minecraft.wiki/images/Invicon_White_Banner.png",
+    "translatedName": "Estandarte Branco"
+  },
+  {
+    "id": 52,
+    "name": "Red Banner",
+    "type": "Decoration",
+    "image": "https://minecraft.wiki/images/Invicon_Red_Banner.png",
+    "translatedName": "Estandarte Vermelho"
+  }
+]
