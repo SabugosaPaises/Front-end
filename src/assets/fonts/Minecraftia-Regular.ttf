@@ -1,4 +1,0 @@
-@font-face {
-  font-family: 'Minecraftia';
-  src: url('./assets/fonts/Minecraftia-Regular.ttf') format('truetype');
-}
